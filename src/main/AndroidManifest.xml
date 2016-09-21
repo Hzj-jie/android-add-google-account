@@ -9,6 +9,8 @@
         <activity android:name=".AddGoogleAccountActivity"
             android:theme="@android:style/Theme.NoDisplay"
             android:label="Add Google Account"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
